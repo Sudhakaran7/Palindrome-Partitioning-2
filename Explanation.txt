@@ -1,0 +1,47 @@
+Given a string s, partition s such that every substring of the partition is a palindrome.
+Return the minimum cuts needed for a palindrome partitioning of s.
+
+Input Description:
+A string S as input.
+
+Output Description:
+Print the minimum cuts needed for a palindrome partitioning of s.
+
+Sample Input:
+aab
+
+Sample Output:
+1
+
+Explanation:
+The palindrome partitioning ["aa","b"] could be produced using 1 cut.
+
+Sample input:
+madam
+
+Sample Output:
+0
+
+Samaple Input:
+qqeew
+
+Sample Output:
+2
+
+Sample Input:
+pliilkj
+
+Sample Output:
+3
+
+Sample Input:
+ironman
+
+Sample Output:
+6
+
+Sample Input:
+navv
+
+Sample Output:
+2
